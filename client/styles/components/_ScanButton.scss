@@ -1,0 +1,20 @@
+.ScanButton {
+  &--container {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    background: $primary-green;
+    box-shadow: 0 0 2rem rgba(0,0,0,.2);
+  }
+
+  &--icon {
+    color: #fff;
+    font-size: 22px;
+  }
+}

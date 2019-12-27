@@ -1,0 +1,35 @@
+.ProductHeader {
+  &--container {
+    display: flex;
+    padding: 15px 0;
+    max-height: 200px;
+    border-bottom: 3px solid lightgray;
+  }
+
+  &--image-container {
+    flex: 1;
+    text-align: center;
+
+    > img {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 100%;
+    }
+  }
+
+  &--rightCol {
+    flex: 1;
+    padding: 25px;
+  }
+
+  &--title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  &--brand {
+    font-size: 15px;
+    color: $darkgray;
+  }
+}
